@@ -62,3 +62,5 @@ Produces FSL_bootstrap_exper_FbyOLS.mat and FOSL_bootstrap_exper_FbyOLS.mat
 mouse_survey_publication_figs.m --- makes figures 3 and 4 
 
 FSL_expected_tumors.m --- forward simulates FSL model as a function of K == F0, data for figure 5
+
+CRAINBOW_field_SA_FOSL.m --- performs Morris global sensitivity analysis on the four compartment model and graphs sensitivity of tumor count (as a function of time) in each compartment for a single genotype. The graph for the large compartment is used in figure 5. Takes as input one of the objects contained in FOSL_bootstrap_exper_FbyOLS.mat
